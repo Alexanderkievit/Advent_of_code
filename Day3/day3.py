@@ -29,7 +29,6 @@ def part2(input):
             a = input[row][kolom % len(input[row])]
             if a == '#':
                 counter += 1
-
         total *= counter
 
     return total
