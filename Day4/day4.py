@@ -29,9 +29,6 @@ def part1(input):
         valid_count += 1
     return valid_count
 
-print(part1(input))
-
-
 def part2(input):
     counter = 0
 
@@ -123,4 +120,5 @@ def part2(input):
             counter += 1
     return counter
 
+print(part1(input))
 print(part2(goede_passpoorten))
